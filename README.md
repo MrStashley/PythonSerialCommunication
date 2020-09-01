@@ -1,6 +1,6 @@
 # PythonSerialCommunication
 
-# Simple Example of communicating with a serial port using python, helpful for Arduino programming or embedded software testing
+### Simple Example of communicating with a serial port using python, helpful for Arduino programming or embedded software testing
 
 ## Installation:
  To get serial communication working with python the way I did, you're going to need to install pyserial with the command
