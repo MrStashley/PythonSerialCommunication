@@ -14,9 +14,9 @@ void setup() {
 void loop() {
   if(IMU.magneticFieldAvailable()){
     IMU.readMagneticField(m[X],m[Y],m[Z]);
-      m[X] = (m[X] - magBias[X]); //* magScale[X];
-      m[Y] = (m[Y] - magBias[Y]); //* magScale[Y];
-      m[Z] = (m[Z] - magBias[Z]); // * magScale[Z];
+      m[X] = (m[X] - magBias[X]); 
+      m[Y] = (m[Y] - magBias[Y]);
+      m[Z] = (m[Z] - magBias[Z]);
 
       m[X] = -m[X];
       m[Y] = m[Y];
